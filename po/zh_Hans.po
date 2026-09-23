@@ -36,6 +36,39 @@ msgstr "原始类型"
 msgid "Parametric Diagram"
 msgstr "参数图PAR"
 
+msgid "Parametric Blocks"
+msgstr "参数块"
+
+msgid "parameters"
+msgstr "参数"
+
+msgid "Expression"
+msgstr "表达式"
+
+msgid "«expression»"
+msgstr "«表达式»"
+
+msgid "constraints"
+msgstr "约束"
+
+msgid "constraint"
+msgstr "约束"
+
+msgid "Constraint"
+msgstr "约束"
+
+msgid "Constraints"
+msgstr "约束"
+
+msgid "Constraint Block"
+msgstr "约束块"
+
+msgid "Constraint Parameter"
+msgstr "约束参数"
+
+msgid "Constraint Property"
+msgstr "约束属性"
+
 #: gaphor/C4Model/modelinglanguage.py:28
 msgid "C4"
 msgstr "C4"
