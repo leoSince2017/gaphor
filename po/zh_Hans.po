@@ -32,6 +32,9 @@ msgstr "包"
 msgid "PrimitiveType"
 msgstr "原始类型"
 
+#: par
+msgid "Parametric Diagram"
+msgstr "参数图PAR"
 
 #: gaphor/C4Model/modelinglanguage.py:28
 msgid "C4"
@@ -111,22 +114,22 @@ msgstr "类图"
 #: gaphor/C4Model/toolbox.py:143 gaphor/SysML/toolbox.py:138
 #: gaphor/UML/toolbox.py:36
 msgid "Activity Diagram"
-msgstr "活动图"
+msgstr "活动图ACT"
 
 #: gaphor/C4Model/toolbox.py:144 gaphor/SysML/toolbox.py:148
 #: gaphor/UML/toolbox.py:37
 msgid "Sequence Diagram"
-msgstr "序列图"
+msgstr "序列图SD"
 
 #: gaphor/C4Model/toolbox.py:145 gaphor/SysML/toolbox.py:158
 #: gaphor/UML/toolbox.py:41
 msgid "State Machine Diagram"
-msgstr "状态图"
+msgstr "状态机图STM"
 
 #: gaphor/C4Model/toolbox.py:146 gaphor/RAAML/toolbox.py:32
 #: gaphor/SysML/toolbox.py:178 gaphor/UML/toolbox.py:44
 msgid "Generic Diagram"
-msgstr "新建通用图表"
+msgstr "通用图表"
 
 #: gaphor/C4Model/toolbox.py:150 gaphor/RAAML/toolbox.py:36
 #: gaphor/SysML/blocks/blockstoolbox.py:51 gaphor/SysML/toolbox.py:182
@@ -458,7 +461,7 @@ msgstr "代理端口"
 
 #: gaphor/SysML/toolbox.py:99
 msgid "Block Definition Diagram"
-msgstr "模块定义图"
+msgstr "模块定义图BDD"
 
 #: gaphor/SysML/toolbox.py:102 gaphor/SysML/toolbox.py:122
 #: gaphor/SysML/toolbox.py:134 gaphor/SysML/toolbox.py:176
@@ -467,7 +470,7 @@ msgstr "新建包"
 
 #: gaphor/SysML/toolbox.py:106
 msgid "Internal Block Diagram"
-msgstr "新建内部块图"
+msgstr "内部模块图IBD"
 
 #: gaphor/SysML/toolbox.py:113 gaphor/SysML/toolbox.py:114
 msgid "New Block"
@@ -475,11 +478,11 @@ msgstr "新建块"
 
 #: gaphor/SysML/toolbox.py:119 gaphor/UML/toolbox.py:33
 msgid "Package Diagram"
-msgstr "包图"
+msgstr "包图PD"
 
 #: gaphor/SysML/toolbox.py:126
 msgid "Requirement Diagram"
-msgstr "需求图"
+msgstr "需求图REQ"
 
 #: gaphor/SysML/toolbox.py:142 gaphor/SysML/toolbox.py:143
 msgid "New Activity"
@@ -495,7 +498,7 @@ msgstr "新建状态机"
 
 #: gaphor/SysML/toolbox.py:168 gaphor/UML/toolbox.py:42
 msgid "Use Case Diagram"
-msgstr "用例图"
+msgstr "用例图UC"
 
 #: gaphor/SysML/toolbox.py:184 gaphor/UML/toolbox.py:50
 #: gaphor/UML/usecases/usecasetoolbox.py:28 gaphor/templates/uml-example.gaphor
