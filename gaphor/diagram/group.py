@@ -106,6 +106,10 @@ group.register(None, object)(no_group)
 
 
 def can_group(parent: Base | None, element_or_type: Base | type[Base]) -> bool:
+    if parent is None or element_or_type is None:
+        return (
+            False  # 调用方传空值进来，则直接返回"不能分组"，而不是任由log里面疯狂报错
+        )
     element_type = (
         type(element_or_type) if isinstance(element_or_type, Base) else element_or_type
     )
