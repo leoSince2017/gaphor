@@ -33,6 +33,8 @@ class DependencyPropertyPage(PropertyPageBase):
         )
 
     def construct(self):
+        if not self.subject.source or not self.subject.target:
+            return None  # 防止连线已经画出来、但两端还没接上的时候属性面板在log里报错
         head = self.builder.get_object("head")
         tail = self.builder.get_object("tail")
         source = self.subject.source[0]
