@@ -20,6 +20,10 @@ msgstr ""
 "X-Generator: Weblate 5.15.2\n"
 "Generated-By: Babel 2.17.0\n"
 
+#: 偏好设置界面
+msgid "Force Dark or Light Color Scheme"
+msgstr "深色模式"
+
 #: gaphor/C4Model/modelinglanguage.py:28
 msgid "C4"
 msgstr "C4"
@@ -3169,7 +3173,7 @@ msgstr "语言"
 
 #: gaphor/ui/help/preferences.ui:35
 msgid "Change from System Language to English"
-msgstr "从系统语言到英语的转变"
+msgstr "使用英文界面"
 
 #: gaphor/ui/help/preferences.ui:42
 msgid "Editing"
@@ -3363,17 +3367,17 @@ msgstr "通用: 通用"
 #~ msgid "Note or Remark"
 #~ msgstr "备注"
 
-#~ msgid "upperBound"
-#~ msgstr "上限"
+#~ msgid "upperBound1"
+#~ msgstr "上限1"
 
-#~ msgid "ordering"
-#~ msgstr "显示顺序"
+#~ msgid "ordering1"
+#~ msgstr "显示顺序1"
 
-#~ msgid "Flatpak Document Portal"
+#~ msgid "Flatpak Document Portal1"
 #~ msgstr ""
 
-#~ msgid "Recently Opened"
-#~ msgstr "最近打开"
+#~ msgid "Recently Opened1"
+#~ msgstr "最近打开1"
 
 #~ msgid "Export as XMI"
 #~ msgstr "导出为 XML 文件"

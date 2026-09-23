@@ -13,7 +13,7 @@
                         <property name="title" translatable="yes">Colors</property>
                         <child>
                             <object class="AdwComboRow" id="style_variant">
-                                <property name="title">Force Dark or Light Color Scheme</property>
+                                <property name="title" translatable="yes">Force Dark or Light Color Scheme</property>
                                 <property name="model">
                                     <object class="GtkStringList">
                                         <items>

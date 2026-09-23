@@ -10,7 +10,6 @@ import gettext as _gettext
 import importlib.resources
 import locale
 import logging
-import os
 import sys
 
 import defusedxml.ElementTree as etree
@@ -62,7 +61,8 @@ def force_english_locale():
     gettext = translation("en_US.UTF-8").gettext
 
 
-gettext = translation(os.getenv("LANG") or _get_os_language()).gettext
+# gettext = translation(os.getenv("LANG") or _get_os_language()).gettext
+gettext = translation("zh_Hans").gettext
 
 
 def i18nize(message):
