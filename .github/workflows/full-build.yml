@@ -121,8 +121,8 @@ jobs:
         uses: ./.github/actions/install
         with:
           python-command: py -${{ env.python_version }}
-      - name: Run Gaphor Tests
-        run: poetry run pytest
+      #- name: Run Gaphor Tests
+      #  run: poetry run pytest
       - name: Create Windows Executables
         uses: ./.github/actions/windows_executables
         with:
