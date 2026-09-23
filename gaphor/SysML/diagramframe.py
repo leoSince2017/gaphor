@@ -12,6 +12,7 @@ from gaphor.diagram.shapes import (
     draw_border,
     stroke,
 )
+from gaphor.i18n import gettext
 from gaphor.SysML.sysml import Block, Constraint, Requirement
 from gaphor.UML import Interaction, Package, Profile, StateMachine
 from gaphor.UML.actions.activity import update_parameter_nodes
@@ -99,18 +100,19 @@ def diagram_label(diagram):
 
 
 def _model_element_type(el) -> str:
+    # 左上角框框里面的package没有被翻译，这里修
     if isinstance(el, Activity):
-        return "activity"
+        return gettext("activity")
     if isinstance(el, Constraint):
-        return "constraint"
+        return gettext("constraint")
     if isinstance(el, Block):
-        return "block"
+        return gettext("block")
     if isinstance(el, Interaction):
-        return "interaction"
+        return gettext("interaction")
     if isinstance(el, Profile):
-        return "profile"
+        return gettext("profile")
     if isinstance(el, Package):
-        return "package"
+        return gettext("package")
     if isinstance(el, Requirement):
-        return "requirement"
-    return "state machine" if isinstance(el, StateMachine) else ""
+        return gettext("requirement")
+    return gettext("state machine") if isinstance(el, StateMachine) else ""

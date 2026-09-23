@@ -24,6 +24,15 @@ msgstr ""
 msgid "Force Dark or Light Color Scheme"
 msgstr "深色模式"
 
+# bdd
+msgid "package"
+msgstr "包"
+
+#: Element/Block
+msgid "PrimitiveType"
+msgstr "原始类型"
+
+
 #: gaphor/C4Model/modelinglanguage.py:28
 msgid "C4"
 msgstr "C4"
