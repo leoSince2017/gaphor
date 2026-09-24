@@ -118,7 +118,7 @@ class ValueSpecificationActionPropertyPage(PropertyPageBase):
         builder = new_builder("value-specifiation-action-editor")
 
         value = builder.get_object("value")
-        value.set_text(self.subject.value or "")
+        value.set_text(str(self.subject.value or ""))
         value.connect("changed", self._on_value_change)
 
         return builder.get_object("value-specifiation-action-editor")
