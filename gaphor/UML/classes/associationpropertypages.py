@@ -9,6 +9,7 @@ from gaphor.diagram.propertypages import (
     help_link,
     unsubscribe_all_on_destroy,
 )
+from gaphor.i18n import gettext
 from gaphor.transaction import Transaction
 from gaphor.UML.classes.association import AssociationItem
 from gaphor.UML.classes.classespropertypages import new_builder
@@ -54,7 +55,8 @@ class AssociationPropertyPage(PropertyPageBase):
     def construct_end(self, builder, end_name, subject):
         title = builder.get_object(f"{end_name}-title")
         if subject.type:
-            title.set_text(f"Member End (: {subject.type.name})")
+            # title.set_text(f"Member End (: {subject.type.name})")
+            title.set_text(gettext("Member End") + f" (: {subject.type.name})")
 
         self.update_end_name(builder, end_name, subject)
 

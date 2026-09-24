@@ -20,11 +20,124 @@ msgstr ""
 "X-Generator: Weblate 5.15.2\n"
 "Generated-By: Babel 2.17.0\n"
 
+#: 图的名字在右边属性的显示
+msgid "UseCaseDiagram"
+msgstr "用例图"
+
+msgid "Diagram"
+msgstr "图"
+
+msgid "RequirementDiagram"
+msgstr "需求图"
+
+msgid "PackageDiagram"
+msgstr "包图"
+
+msgid "StateMachineDiagram"
+msgstr "状态机图"
+
+msgid "SequenceDiagram"
+msgstr "序列图"
+
+msgid "ActivityDiagram"
+msgstr "活动图"
+
+#: STM
+msgid "state machine"
+msgstr "状态机"
+
+#: SD
+msgid "interaction"
+msgstr "交互"
+
+
+#: act
+msgid "StateMachine"
+msgstr "状态机"
+
+
+msgid "Pseudostate"
+msgstr "伪状态"
+msgid "FinalState"
+msgstr "最终状态"
+msgid "UseCase"
+msgstr "用例"
+
+msgid "Member End"
+msgstr "成员端"
+
+
+
+msgid "ControlFlow"
+msgstr "控制流"
+
+msgid "ObjectFlow"
+msgstr "对象流"
+
+msgid "SendSignalAction"
+msgstr "发送信号动作"
+
+msgid "AcceptEventAction"
+msgstr "接受事件动作"
+
+
+
+
+msgid "activity"
+msgstr "活动"
+
+msgid "DecisionNode"
+msgstr "判定节点"
+
+msgid "JoinNode"
+msgstr "汇合节点"
+
+
+
+msgid "ActivityPartition"
+msgstr "活动分区"
+
+
+
+msgid "valueSpecification"
+msgstr "值规格"
+
+msgid "New Action"
+msgstr "新动作"
+
+msgid "new Action"
+msgstr "新动作"
+
+msgid "NewAction"
+msgstr "新动作"
+
+msgid "newAction"
+msgstr "新动作"
+
+msgid "New CallBehaviorAction"
+msgstr "新调用行为动作"
+
+msgid "New ValueSpecificationAction"
+msgstr "新值规格动作"
+
+msgid "ObjectNode"
+msgstr "对象节点"
+
+msgid "InitialNode"
+msgstr "初始节点"
+
+msgid "ActivityFinalNode"
+msgstr "活动最终节点"
+
+msgid "FlowFinalNode"
+msgstr "流最终节点"
+
+
 #: 偏好设置界面
 msgid "Force Dark or Light Color Scheme"
 msgstr "深色模式"
 
-# bdd
+#: bdd
 msgid "package"
 msgstr "包"
 
@@ -68,6 +181,7 @@ msgstr "约束参数"
 
 msgid "Constraint Property"
 msgstr "约束属性"
+
 
 #: gaphor/C4Model/modelinglanguage.py:28
 msgid "C4"
@@ -536,7 +650,7 @@ msgstr "用例图UC"
 #: gaphor/SysML/toolbox.py:184 gaphor/UML/toolbox.py:50
 #: gaphor/UML/usecases/usecasetoolbox.py:28 gaphor/templates/uml-example.gaphor
 msgid "Actor"
-msgstr "角色"
+msgstr "参与者"
 
 #: gaphor/SysML/blocks/blockstoolbox.py:29 gaphor/SysML/toolbox.py:185
 msgid "Block"
@@ -818,29 +932,29 @@ msgstr "泳道 2"
 
 #: gaphor/UML/actions/actionstoolbox.py:60
 msgid "ValueSpecificationAction"
-msgstr "值规范操作"
+msgstr "值规格动作"
 
 #: gaphor/UML/actions/actionstoolbox.py:68
 msgid "Actions"
-msgstr "活动"
+msgstr "动作"
 
 #: gaphor/UML/actions/actionstoolbox.py:84
 #: gaphor/UML/actions/actionstoolbox.py:90
 #: gaphor/UML/states/propertypages.ui:103
 msgid "Action"
-msgstr "活动"
+msgstr "动作"
 
 #: gaphor/UML/actions/actionstoolbox.py:96
 msgid "Call behavior action"
-msgstr "调用行为操作"
+msgstr "调用行为动作"
 
 #: gaphor/UML/actions/actionstoolbox.py:103
 msgid "CallBehaviorAction"
-msgstr "调用行为操作"
+msgstr "调用行为动作"
 
 #: gaphor/UML/actions/actionstoolbox.py:110
 msgid "Value specification action"
-msgstr "值规范操作"
+msgstr "值规格动作"
 
 #: gaphor/UML/actions/actionstoolbox.py:122
 msgid "Initial node"
@@ -848,11 +962,11 @@ msgstr "初始节点"
 
 #: gaphor/UML/actions/actionstoolbox.py:134
 msgid "Activity final node"
-msgstr "活动终点"
+msgstr "活动最终节点"
 
 #: gaphor/UML/actions/actionstoolbox.py:146
 msgid "Flow final node"
-msgstr "流终点"
+msgstr "流最终节点"
 
 #: gaphor/UML/actions/actionstoolbox.py:158
 msgid "Decision/merge node"
@@ -905,7 +1019,7 @@ msgstr "输出接口"
 
 #: gaphor/UML/actions/activitynodes.py:182
 msgid "merge/decision"
-msgstr "合并/决定"
+msgstr "合并/判定"
 
 #: gaphor/UML/actions/activitynodes.py:184
 msgid "merge"
@@ -913,7 +1027,7 @@ msgstr "合并"
 
 #: gaphor/UML/actions/activitynodes.py:186
 msgid "decision"
-msgstr "决定"
+msgstr "判定"
 
 #: gaphor/UML/actions/activitypropertypage.py:149
 msgid "New Parameter…"
@@ -2333,7 +2447,7 @@ msgstr "4. 详细设计"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "Main Actor"
-msgstr "主角色"
+msgstr "主参与者"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "Main Use Case"
@@ -2345,7 +2459,7 @@ msgstr "被包含的用例"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "Secondary Actor"
-msgstr "从角色"
+msgstr "从参与者"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "Secondary Use Case"
@@ -2397,11 +2511,11 @@ msgstr "软件组件 2"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "Primary Actor"
-msgstr "主要角色"
+msgstr "主要参与者"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "Actor Profile"
-msgstr "角色配置"
+msgstr "参与者配置"
 
 #: gaphor/templates/uml-example.gaphor
 msgid "login"
@@ -3461,7 +3575,7 @@ msgstr "通用: 通用"
 #~ msgstr "新建场景"
 
 #~ msgid "New Actor"
-#~ msgstr "新建角色"
+#~ msgstr "新建参与者"
 
 #~ msgid "New Interface Block"
 #~ msgstr "新建接口框图"
