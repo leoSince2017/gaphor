@@ -20,6 +20,14 @@ msgstr ""
 "X-Generator: Weblate 5.15.2\n"
 "Generated-By: Babel 2.17.0\n"
 
+#: 菜单
+msgid "Help"
+msgstr "帮助"
+
+
+
+
+
 #: 图的名字在右边属性的显示
 msgid "UseCaseDiagram"
 msgstr "用例图"
@@ -140,6 +148,9 @@ msgstr "深色模式"
 #: bdd
 msgid "package"
 msgstr "包"
+
+msgid "Image"
+msgstr "图片"
 
 #: Element/Block
 msgid "PrimitiveType"
@@ -3061,7 +3072,7 @@ msgstr "快捷键"
 #: gaphor/ui/greeter.ui:22 gaphor/ui/help/about.ui:9
 #: gaphor/ui/mainwindow.ui:292
 msgid "About Gaphor"
-msgstr "关于Gaphor"
+msgstr "关于"
 
 #: gaphor/ui/greeter.ui:87
 msgid "Recently Opened"
